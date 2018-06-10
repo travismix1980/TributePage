@@ -48,10 +48,52 @@ h1, h2{
 }
 
 #tribute-info {
-
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
 }
 
 #tribute-head {
     text-align: center;
     margin-top: -35px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.dates {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+hr.style-hr {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+hr.style-hr:after {
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
+
+#before-leave {
+    width: 93%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#luggage-img {
+    display: block;
+    width: 200px;
+    height: auto;
+    float: right;
 }

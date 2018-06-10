@@ -27,9 +27,9 @@ h1, h2{
 
 #image {
     display:block;
+    min-width:100%;
     max-width: 100%;
     height: auto;
-    
 }
 
 #title {
